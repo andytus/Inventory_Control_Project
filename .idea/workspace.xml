@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d0c8207-c228-4acc-911f-80a55ae4c8b4" name="Default" comment="" />
+    <list default="true" id="9d0c8207-c228-4acc-911f-80a55ae4c8b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inventory_Control_Project/Inventory/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inventory_Control_Project/Inventory/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inventory_Control_Project/Inventory/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inventory_Control_Project/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inventory_Control_Project/settings.py" afterPath="$PROJECT_DIR$/Inventory_Control_Project/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inventory_Control_Project/urls.py" afterPath="$PROJECT_DIR$/Inventory_Control_Project/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Inventory_Control_Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,39 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="10" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1410">
+            <state line="40" column="31" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/models.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/Inventory/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="11" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="65" selection-start="416" selection-end="416" vertical-scroll-proportion="0.33546326" vertical-offset="0" max-vertical-offset="313">
+            <state line="7" column="23" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/Inventory/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="17" selection-start="390" selection-end="390" vertical-scroll-proportion="0.31502423" vertical-offset="0" max-vertical-offset="619">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,12 +70,30 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Andrew Roberts" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Inventory_Control_Project/settings.py" />
         <option value="$PROJECT_DIR$/Inventory_Control_Project/models.py" />
         <option value="$PROJECT_DIR$/Inventory_Control_Project/admin.py" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/Inventory_Control_Project/settings.py" />
+        <option value="$PROJECT_DIR$/Inventory_Control_Project/views.py" />
+        <option value="$PROJECT_DIR$/Inventory_Control_Project/urls.py" />
+        <option value="$PROJECT_DIR$/Inventory_Control_Project/Inventory/urls.py" />
+        <option value="$PROJECT_DIR$/Inventory_Control_Project/Inventory/views.py" />
       </list>
     </option>
   </component>
@@ -83,7 +103,7 @@
     <option name="width" value="1318" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -142,6 +162,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory_Control_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory_Control_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory_Control_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -160,7 +198,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Inventory_Control_Project/Inventory" />
       <recent name="$PROJECT_DIR$/Inventory_Control_Project" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.Inventory_Control_Project">
@@ -400,16 +440,17 @@
     <frame x="49" y="-4" width="1318" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.306231" sideWeight="0.5277778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.306231" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4722222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4722222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -427,15 +468,28 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Website placeholders working, Index showing pk of Inventory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Website placeholders working, Index showing pk of Inventory." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="47" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
-          <folding />
+        <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,28 +510,9 @@
     <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="28" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +533,9 @@
     <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,20 +549,6 @@
     <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="22" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="10" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
@@ -539,9 +562,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="65" selection-start="416" selection-end="416" vertical-scroll-proportion="0.33546326" vertical-offset="0" max-vertical-offset="313">
+        <state line="11" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="0.52715653" vertical-offset="0" max-vertical-offset="313">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.57507986" vertical-offset="0" max-vertical-offset="313">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="31" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/Inventory/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory_Control_Project/Inventory/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="390" selection-end="390" vertical-scroll-proportion="0.31502423" vertical-offset="0" max-vertical-offset="619">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
