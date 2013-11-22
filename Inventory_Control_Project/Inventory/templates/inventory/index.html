@@ -1,0 +1,31 @@
+{% if inventory_list %}
+<center><table border="0" >
+    <tr>
+        <td>
+<table border="0">
+    <tr>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Serial Number</th>
+    <th>Signed in/out</th>
+    <th>Tool Kit Number</th>
+    <th>Date/Time Stamp</th>
+  </tr>
+ {% for inventory in inventory_list %}
+  <tr>
+    <td>{{ inventory.type }}</td>
+    <td>{{ inventory.description }}</td>
+    <td>{{ inventory.serialnumber }}</td>
+    <td>{{ inventory.signedoutby }}</td>
+    <td>{{ inventory.toolkitnumber }}</td>
+    <td>{{ inventory.datesignedout }}</td>
+  </tr>
+ {% endfor %}
+</table>
+        </td>
+    </tr>
+</table>
+</center>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

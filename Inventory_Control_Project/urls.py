@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'Inventory_Control_Project.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^inventory/', include('Inventory_Control_Project.Inventory.urls')),
-    url(r'^Inventory/', include('Inventory_Control_Project.Inventory.urls'))
+    url(r'^inventory/', include('Inventory_Control_Project.Inventory.urls'))
 )
 
 
